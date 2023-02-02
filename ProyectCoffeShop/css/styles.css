@@ -1,0 +1,35 @@
+/* body {
+ background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+} */
+
+body {
+  background-image: url(https://media.blogto.com/articles/20180131-2048-TheDrakeHotel35.jpg?cmd=resize_then_crop&quality=70&w=2048&height=1365)  ;
+ }
+
+h1, h2, p {
+  text-align: center;
+}
+/* div{
+  width: 80% ;
+  background-color: burlywood;
+  margin: auto;
+} */
+.menu {
+  width: 80%;
+  background-color: peru;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.flavor {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+.item p{
+  display: inline-block;
+}
