@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://media.blogto.com/articles/20180131-2048-TheDrakeHotel35.jpg?cmd=resize_then_crop&quality=70&w=2048&height=1365);
+  background-image: url(/Imgs/cafe.jpg);
   font-family: sans-serif;
   padding: 20px;
 }
@@ -26,11 +26,27 @@ p {
 
 .menu {
   width: 80%;
-  max-width: 500px;
   background-color: peru;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(19, 13, 13);
+  border-color: rgb(227, 201, 201);
+}
+
+.bottom-line {
+  margin-top: 25px;
 }
 
 h1,
@@ -53,31 +69,25 @@ h2 {
 
 .price {
   text-align: right;
-  width: 25%
-}
-
-hr {
-  height: 2px;
-  background-color: blue;
-  border-color: blue;
-}
-
-.bottom-line {
-  margin-top: 25px;
+  width: 5%;
 }
 
 /* FOOTER */
+
 footer {
   font-size: 14px;
 }
 
+.address {
+  margin-bottom: 5px;
+}
+
 a {
   color: black;
-
 }
 
 a:visited {
-  color: white;
+  color: black;
 }
 
 a:hover {
@@ -85,16 +95,5 @@ a:hover {
 }
 
 a:active {
-  color: white;
-}
-
-.address {
-  margin-bottom: 5px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -25px;
+  color: brown;
 }
