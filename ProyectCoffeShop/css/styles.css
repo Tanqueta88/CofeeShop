@@ -26,7 +26,7 @@ p {
 
 .menu {
   width: 80%;
-  background-color: peru;
+  background: linear-gradient(10deg, rgb(70, 38, 10), rgb(146, 116, 90), rgb(191, 95, 39));
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -41,8 +41,8 @@ img {
 
 hr {
   height: 2px;
-  background-color: rgb(19, 13, 13);
-  border-color: rgb(227, 201, 201);
+  background-color: peru;
+  border-color: peru;
 }
 
 .bottom-line {
@@ -91,7 +91,7 @@ a:visited {
 }
 
 a:hover {
-  color: brown;
+  color: red;
 }
 
 a:active {
